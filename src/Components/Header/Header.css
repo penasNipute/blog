@@ -1,0 +1,51 @@
+.header
+{
+  width: 100%;
+  background: var(--linear);
+  padding: 41px 0;
+}
+
+.logos
+{
+  display:flex;
+  /* font-family: 'Inter', sans-serif; */
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: 400;  
+  font-size: 1.5rem;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--white);
+  padding-bottom: 70px;
+}
+
+.input
+{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-color:var(--blue);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.input input
+{
+  width: 100%;
+  background-color: var(--blue);
+  outline: none;
+  border:0;
+  padding: 10px;
+  color: var(--white);
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.input input::placeholder
+{
+  color: var(--white);
+  opacity: .5;
+
+}
