@@ -20,7 +20,7 @@
 
 .input
 {
-  width: 100%;
+  width: calc(100% - 20px);
   display: flex;
   align-items: center;
   background-color:var(--blue);

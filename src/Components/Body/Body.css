@@ -3,5 +3,13 @@
   width: 100%;
   padding: 100px 0;
   margin: 0 auto;
-  /* background-color:#09090B */
+}
+
+
+@media only screen and (max-width: 900px) {
+  .main 
+  {
+    background-color: lightblue;
+    padding: 40px 0;
+  }
 }
